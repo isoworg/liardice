@@ -8,7 +8,7 @@ class Die
   end
 
   def roll
-    @value = ["A", "K", "Q", "J", "10", "9"].sample
+    @value = rand(1..6)
   end
 
 end

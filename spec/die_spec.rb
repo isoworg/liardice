@@ -3,7 +3,7 @@ require 'die'
 describe 'Die' do
   
   before (:all) do
-    @values = ["A", "K", "Q", "J", "10", "9"]
+    @values = [1,2,3,4,5,6]
     @die = Die.new
   end
   
